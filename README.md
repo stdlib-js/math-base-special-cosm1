@@ -24,14 +24,30 @@ limitations under the License.
 
 > Compute `cos(x) - 1`.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-cosm1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@esm/index.mjs';
+var cosm1 = require( '@stdlib/math-base-special-cosm1' );
 ```
 
 #### cosm1( x )
@@ -39,7 +55,7 @@ import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1
 Computes `cos(x) - 1`, where `cos` is the [cosine][@stdlib/math/base/special/cos] of a `number` (in radians). This function should be used instead of manually calculating `cos(x) - 1` when the argument is near unity.
 
 ```javascript
-import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
+var PI = require( '@stdlib/constants-float64-pi' );
 
 var v = cosm1( 0.0 );
 // returns 0.0
@@ -64,15 +80,10 @@ v = cosm1( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
-import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var PI = require( '@stdlib/constants-float64-pi' );
+var cosm1 = require( '@stdlib/math-base-special-cosm1' );
 
 var x = linspace( 0.0, 2.0*PI, 100 );
 
@@ -80,10 +91,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( cosm1( x[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -98,7 +105,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/cos`][@stdlib/math/base/special/cos]</span><span class="delimiter">: </span><span class="description">compute the cosine of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/cos`][@stdlib/math/base/special/cos]</span><span class="delimiter">: </span><span class="description">compute the cosine of a number.</span>
 
 </section>
 
@@ -113,7 +120,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -152,7 +159,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -168,7 +175,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/esm
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
 <!-- </related-links> -->
 
