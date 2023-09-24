@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cosm1/tags). For example,
+
+```javascript
 import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@v0.1.0-deno/mod.js';
 ```
 
@@ -78,7 +83,7 @@ v = cosm1( NaN );
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
-import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@v0.1.0-deno/mod.js';
+import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@deno/mod.js';
 
 var x = linspace( 0.0, 2.0*PI, 100 );
 
