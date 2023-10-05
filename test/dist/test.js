@@ -40,7 +40,7 @@ var PIO4 = 7.85398163397448309616e-1; // 4/π
 
 // FIXTURES //
 
-var data = require( './../..xtures/python/data.json' );
+var data = require( './../fixtures/python/data.json' );
 
 
 // TESTS //
