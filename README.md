@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@esm/index.mjs';
+import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@v0.2.1-esm/index.mjs';
 ```
 
 #### cosm1( x )
@@ -83,7 +83,7 @@ v = cosm1( NaN );
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
-import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@esm/index.mjs';
+import cosm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cosm1@v0.2.1-esm/index.mjs';
 
 var x = linspace( 0.0, 2.0*PI, 100 );
 
