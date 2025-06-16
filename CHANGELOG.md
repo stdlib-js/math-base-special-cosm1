@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7496a50`](https://github.com/stdlib-js/stdlib/commit/7496a509575e6c8a5db40ba0773ccb84e368a193) - **docs:** fix function return value _(by Karan Anand)_
 -   [`984012e`](https://github.com/stdlib-js/stdlib/commit/984012e02dcba80c611674af357d7c7f1bcd3904) - **test:** fix typo in function name _(by Karan Anand)_
 -   [`c645d4b`](https://github.com/stdlib-js/stdlib/commit/c645d4bd281db0822167295c79b578cf6fc976b3) - **test:** use strict equality for `cosm1` within `[-π/4,π/4]` interval _(by Karan Anand)_
 -   [`2c12d8c`](https://github.com/stdlib-js/stdlib/commit/2c12d8c195d96bddee7a34a7f9d79ba1936603e1) - **test:** correct `filepath` in test fixture generation _(by Karan Anand)_
