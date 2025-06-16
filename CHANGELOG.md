@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-16)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`c645d4b`](https://github.com/stdlib-js/stdlib/commit/c645d4bd281db0822167295c79b578cf6fc976b3) - **test:** use strict equality for `cosm1` within `[-π/4,π/4]` interval _(by Karan Anand)_
+-   [`2c12d8c`](https://github.com/stdlib-js/stdlib/commit/2c12d8c195d96bddee7a34a7f9d79ba1936603e1) - **test:** correct `filepath` in test fixture generation _(by Karan Anand)_
 -   [`4a76339`](https://github.com/stdlib-js/stdlib/commit/4a76339547e841d83692c3d8e5f364568de055d5) - **docs:** replace manual `for` loop in examples [(#6612)](https://github.com/stdlib-js/stdlib/pull/6612) _(by Harsh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh, stdlib-bot)_
