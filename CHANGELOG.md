@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-16)
+## Unreleased (2025-09-13)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9bee6e1`](https://github.com/stdlib-js/stdlib/commit/9bee6e10100c14195fb1b13bcb4df244885edb64) - **chore:** add structured package data for packages in `math/base/special` [(#8052)](https://github.com/stdlib-js/stdlib/pull/8052) _(by Gunj Joshi, Athan Reines)_
 -   [`7496a50`](https://github.com/stdlib-js/stdlib/commit/7496a509575e6c8a5db40ba0773ccb84e368a193) - **docs:** fix function return value _(by Karan Anand)_
 -   [`984012e`](https://github.com/stdlib-js/stdlib/commit/984012e02dcba80c611674af357d7c7f1bcd3904) - **test:** fix typo in function name _(by Karan Anand)_
 -   [`c645d4b`](https://github.com/stdlib-js/stdlib/commit/c645d4bd281db0822167295c79b578cf6fc976b3) - **test:** use strict equality for `cosm1` within `[-π/4,π/4]` interval _(by Karan Anand)_
@@ -30,8 +31,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Gunj Joshi
 -   Harsh
 -   Karan Anand
 
