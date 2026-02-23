@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.3",
-    "@stdlib/console-log-each-map": "^0.1.0",
+    "@stdlib/console-log-each-map": "^0.1.1",
     "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/constants-float64-ninf": "^0.2.3",
     "@stdlib/constants-float64-pi": "^0.2.3",
@@ -58,7 +58,7 @@
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.1",
     "@stdlib/math-base-tools-evalpoly-compile-c": "^0.2.2",
-    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.2",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-substring-after": "^0.2.3",
     "@stdlib/string-substring-before": "^0.2.3",
